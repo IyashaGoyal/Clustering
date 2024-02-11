@@ -36,7 +36,7 @@ Ordering Points To Identify the Clustering Structure (OPTICS) extends DBSCAN, al
 # 8. Birch Clustering
 BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) is a hierarchical algorithm for large datasets, incrementally building a tree-like structure.
 
-# About The Notebook(Clustering.ipynb):
+# About The Notebook(Clustering_.ipynb):
 The Clustering.ipynb notebook is generated to perform clustering on the Attribute DataSet.csv. All 8 clustering types are applied to the dataset, evaluating parameters such as Silhouette, Calinski-Harabasz, and Davies-Bouldin. The notebook provides a comprehensive analysis of clustering algorithms and their performance on the given dataset.
 
 
