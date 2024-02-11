@@ -38,3 +38,51 @@ BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) is a hierar
 
 # About The Notebook(Clustering.ipynb):
 The Clustering.ipynb notebook is generated to perform clustering on the Attribute DataSet.csv. All 8 clustering types are applied to the dataset, evaluating parameters such as Silhouette, Calinski-Harabasz, and Davies-Bouldin. The notebook provides a comprehensive analysis of clustering algorithms and their performance on the given dataset.
+
+
+First five rows of dataset:-
+![image](https://github.com/IyashaGoyal/Clustering/assets/144591074/7fb53b44-7eef-4b93-a6ae-5a4679ed4387)
+
+
+
+Elbow-Plot
+![image](https://github.com/IyashaGoyal/Clustering/assets/144591074/26666f72-1e6e-47f5-8412-ca22b04224fa)
+
+Distribution-Plot
+![image](https://github.com/IyashaGoyal/Clustering/assets/144591074/da1ad785-5da0-4512-9229-702eb0e2395e)
+
+
+Result of K-means and Affinity Propagation  after applying different normalization techniques:
+![image](https://github.com/IyashaGoyal/Clustering/assets/144591074/5d51abd2-2ff8-4445-949d-5b3edb431e0f)
+
+Result of Agglomerative Clustering and Mean shift clustering after applying different normalization techniques:
+![image](https://github.com/IyashaGoyal/Clustering/assets/144591074/bdaca764-02b1-4439-83d5-6b63b1c13fb6)
+
+Result of Spectral Clustering and Density-Based Spatial Clustering after applying different normalization techniques:
+![image](https://github.com/IyashaGoyal/Clustering/assets/144591074/864a170f-0045-4c3e-a205-45bd7a7f06ad)
+
+Result of OPTICS Clustering and Birch Clustering after applying different normalization techniques:
+![image](https://github.com/IyashaGoyal/Clustering/assets/144591074/6194e302-f1c2-4aaa-91d6-a494f8d95dca)
+
+# Conclusions
+
+1. In context of **no data preprocessing** among the 8 types of clustering provided , the **Kmeans clustering** gave the best silhouette value with **no of clusters = 3**
+
+2. In context of using **normalization**, among the 8 types of clustering provided , the **Spectral Clustering** gave the best silhouette value with **no of clusters = 3**
+
+3. In context of using **transformation**, among the 8 types of clustering provided , the **Kmeans clustering** gave the best silhouette value with **no of clusters = 3**
+
+4. In context of using **PCA**, among the 8 types of clustering provided , the **Kmeans clustering** gave the best silhouette value with **no of clusters = 3**
+ 
+5. In context of using **normalization + transformation**, among the 8 types of clustering provided , the **Spectral Clustering** gave the best silhouette value with **no of clusters = 3**
+
+6. In context of using **normalization + transformation + PCA**, among the 8 types of clustering provided , the **Spectral Clustering** gave the best silhouette value with **no of clusters = 3**
+
+
+
+
+
+
+
+
+
